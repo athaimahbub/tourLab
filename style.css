@@ -1,0 +1,45 @@
+body{
+    background: #333;
+    color: white;
+}
+
+.navbar{
+    border-bottom: 5px solid rgb(30, 103, 240);
+    background: #292b2c;
+    opacity: 0.8;
+    
+}
+
+#home-section{
+    background: url(images/home-bg.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    
+}
+.dark-overlay{
+    background: rgb(0,0,0,0.7);
+    min-height: 700px;          /*If need to adjust the height*/
+}
+
+.home-inner{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.card-form{
+    opacity: 0.7;           /*Alternative of rgba color(transparency) */
+}
+
+.new-image img{
+    height: 600px;
+    width: 100%;
+    
+}
+
+.new-passion-section{
+    padding: 50px 0px 20px 0px;
+}
+.new-passion-section img{
+    height: 600px;
+    width: 100%;
+}
